@@ -1,0 +1,343 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+#header {
+    background: whitesmoke;
+    width: 95%;
+    height: 100vh;
+    margin: 35px auto 0;
+    padding: 25px 5%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 93px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+}
+.header-text{
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.header-text h1{
+    font-size: 3rem;
+    font-weight: 525;
+}
+.header-text h1 span{
+    color: #142F32;
+}
+.header-text h5{
+    font-size: 0.75rem;
+    font-family: system-ui;
+    font-weight: 400;
+    font-stretch: ultra-expanded;
+    margin-top: 9px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+    
+button {
+    padding: 12px 25px;
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 40px;
+    background: #142F32;
+    transition: 0.5s;
+}
+button:hover {
+    background: white;
+    color: black;
+}
+.images ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.images ul li span img{
+    border-radius:20px;
+    height: 300px;
+    width: 200px;
+    margin-top: 30px;
+}
+.images ul li span1 img{
+    border-radius:20px;
+    height: 250px;
+    margin-top: 30px;
+}
+.images ul li span span img{
+    border-radius:20px;
+    width: 250px;
+    height: 200px;
+    margin-top: 30px;
+}
+/* --------------------------about---------------------------- */
+#about{
+    background: #142F32;
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto 0;
+    padding: 5% 0;
+    color: white;
+}
+#about .header-text{
+    margin-top: 0px;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-top: 10px;
+    gap: 50px;
+    justify-content: center;
+}
+.services-list div{
+    background: #1a4347;
+    padding: 12px 35px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+.services-list h1{
+    margin-top: 70px;
+    font-size: 17px;
+    font-weight: 200;
+    width: 100%;
+}
+.services-list p{
+    padding: 10px 0 0;
+    font-size: 12px;
+}
+.services-list div nav i{
+    color: #ffffff;
+    font-size: 30px;
+}
+.services-list div nav a i{
+    font-size: 15px;
+}
+/* -----------------------------------benefits------------------------ */
+#benefits{
+    background: white;
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto 0;
+    padding: 5% 30px 5% 100px;
+    color: #000;
+}
+.column{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col-1{
+    flex-basis: 35%;
+}
+.col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.col-2{
+    flex-basis: 55%;
+}
+.col-2 h1{
+    font-size: 40px;
+    font-weight: 550;
+}
+.col-2 h5{
+    margin-top: 15px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.sub-heading ol h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 30px 0 10px 0;
+}
+.sub-heading ol li{
+    list-style: none;
+}
+.sub-heading ol li i{
+    padding-right: 7px;
+}
+.sub-heading ol ul li{
+    list-style: none;
+    padding: 0.3%;
+}
+/* -----------------------------------Plan--------------------------------------------- */
+#plans{
+    background: black;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto 0;
+    /* padding: 5% auto 5% ; */
+    color: #ffffff;
+}
+#plans .header-text{
+    margin-top: 0;
+}
+.plans-list{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    margin-top: 40px;
+    gap: 50px;
+    justify-content: center;
+}
+.plans-list div{
+    background: #282930;
+    padding: 20px 40px 20px 35px;
+    border-radius: 10px;
+}
+.plans-list div ul{
+    list-style: none;
+}
+.plans-list div ul i{
+    padding-right: 7px;
+}
+.plans-list div button{
+    margin: 15px;
+    padding: 12px 0;
+    width: 100%;
+    background: transparent;
+    border-radius: 40px;
+    border-color: rgb(97, 209, 145);
+    transition: 0.2s;
+}    
+.plans-list div button:hover{
+    border-color:chartreuse;
+    color: chartreuse;
+}
+.plans-list div pre{
+    text-align: center;
+}
+.plans-list div ul li{
+    padding: 2% 0;
+}
+.plans-list div ul li i{
+    padding-right: 9px;
+}
+.plans-list div p span{
+    font-size: x-large;
+    font-weight: bold;
+}
+.big-box{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 353px;
+    margin-bottom: 40px;
+    text-align: center;
+    background: #1a4347;
+    padding: 20px 200px 20px 200px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.big-box button{
+    margin-top: 20px;
+    background: #E3FFCC;
+    color: #142F32;
+    font-size: medium;
+    transition: 0.2s;
+}
+.big-box button:hover{
+    background: #142F32;
+    color: #E3FFCC;
+    border-color: #ffffff;
+}
+/* ----------------------------------------join--------------------------------------------- */
+#join{
+    background: white;
+    width: 95%;
+    /* height: 70vh; */
+    margin: 0px auto 0;
+    /* padding: 5% 30px 5% 100px; */
+    color: #000;
+    /* align-items: center; */
+}
+#join .col-1{
+    padding: 2% 0 0 100px;
+    flex-basis: 50%;
+    /* align-items: center; */
+}
+#join .col-2{
+    padding: 3% 30px 0 0;
+    flex-basis: 50%;
+}
+.col-2 img{
+    width: 90%;
+    border-radius: 15px;
+}
+.col-1 div{
+    margin-top: 95px;
+}
+.col-1 div h1{
+    font-size: 40px;
+}
+.col-1 p{
+    color: rgb(104, 103, 103);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    line-height: 33px;
+    width: 80%;
+    font-size: large;
+}
+.col-1 button{
+    width: 150px;
+    background: #E3FFCC;
+    color: #1a4347;
+    font-weight: bold;
+    border: none;
+    transition: 0.2s;
+}
+.col-1 button:hover{
+    background: #1a4347;
+    color: #E3FFCC;
+}
+.column-2{
+    margin-top: 40px;
+    text-align: center;
+    background: #1a4347;
+    padding: 20px 40px 20px 35px;
+    /* border-radius: 10px; */
+    justify-content: center;
+    color: #ffffff;
+}
+.column-2 div h1{
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+.column-2 div button{
+    margin-top: 40px;
+    background: #E3FFCC;
+    color: #142F32;
+    font-weight: bold;
+    border: none;
+    transition: 0.2s;
+}
+.column-2 div button:hover{
+    background: #142F32;
+    color: #E3FFCC;
+}
